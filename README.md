@@ -2,7 +2,7 @@
 
 # 🗂️ Sistema de gestión de carpetas en Bash
 
-Este script permite crear, listar, renombrar y eliminar carpetas dentro de un workspace temporal. Incluye validaciones estrictas, interfaz amigable, colores, logs y pruebas automáticas.
+Script en Bash que permite gestionar carpetas dentro de un workspace temporal. Incluye menú interactivo, validaciones estrictas, colores, logs, pruebas automáticas y documentación clara.
 
 ## 📦 Comandos utilizados
 
@@ -91,3 +91,18 @@ Se genera `workspace.log` dentro del workspace para registrar acciones del usuar
     </tr>
   </tbody>
 </table>
+
+## como ejecutar
+
+chmod +x menu_carpetas.sh
+./menu_carpetas.sh
+
+## como testearlo
+
+chmod +x test_menu.sh
+./test_menu.sh
+
+## logs 
+
+Se genera automáticamente un archivo workspace.log dentro del workspace para registrar acciones del usuario.
+
