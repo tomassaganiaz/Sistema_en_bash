@@ -1,5 +1,45 @@
 # Sistema_en_bash
 
+# 🗂️ Sistema de gestión de carpetas en Bash
+
+Este script permite crear, listar, renombrar y eliminar carpetas dentro de un workspace temporal. Incluye validaciones estrictas, interfaz amigable, colores, logs y pruebas automáticas.
+
+## 📦 Comandos utilizados
+
+<table border="1" cellpadding="6" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Comando</th>
+      <th>Función en el script</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><code>mkdir</code></td><td>Crea el workspace y carpetas nuevas.</td></tr>
+    <tr><td><code>cd</code></td><td>Accede al workspace para operar exclusivamente allí.</td></tr>
+    <tr><td><code>read</code></td><td>Solicita entradas del usuario.</td></tr>
+    <tr><td><code>echo</code></td><td>Muestra mensajes y resultados.</td></tr>
+    <tr><td><code>find</code></td><td>Lista carpetas existentes.</td></tr>
+    <tr><td><code>mv</code></td><td>Renombra carpetas.</td></tr>
+    <tr><td><code>rmdir</code></td><td>Elimina carpetas vacías.</td></tr>
+    <tr><td><code>rm -r</code></td><td>Elimina carpetas no vacías si se confirma.</td></tr>
+    <tr><td><code>test</code></td><td>Valida condiciones lógicas.</td></tr>
+    <tr><td><code>case</code></td><td>Gestiona el menú principal.</td></tr>
+    <tr><td><code>while</code></td><td>Mantiene el menú activo.</td></tr>
+    <tr><td><code>xargs</code></td><td>Limpia espacios en entradas del usuario.</td></tr>
+    <tr><td><code>tput</code></td><td>Agrega color a la interfaz (opcional).</td></tr>
+  </tbody>
+</table>
+
+## 🧪 Tests
+
+Incluye `test_menu.sh` para validar funciones básicas del script.
+
+## 📜 Logs
+
+Se genera `workspace.log` dentro del workspace para registrar acciones del usuario.
+
+## contenido extra
+
 <table border="1" cellpadding="6" cellspacing="0">
   <thead>
     <tr>
