@@ -30,14 +30,6 @@ Script en Bash que permite gestionar carpetas dentro de un workspace temporal. I
   </tbody>
 </table>
 
-## 🧪 Tests
-
-Incluye `test_menu.sh` para validar funciones básicas del script.
-
-## 📜 Logs
-
-Se genera `workspace.log` dentro del workspace para registrar acciones del usuario.
-
 ## contenido extra
 
 <table border="1" cellpadding="6" cellspacing="0">
